@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #83a0a0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.root{
+    width: 80%;
+    height: 80%;
+    background-color: #5b8888;
+    border-radius: 20px;
+    display: flex;
+}
+.root section:nth-child(1){
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #fff;
+}
+section:nth-child(1) img{
+    width: 70%;
+}
+.root section:nth-child(2){
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.root section:nth-child(2) form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    gap: 10px;
+}
+input{
+    width: 385px;
+    height: 42px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+input[type="submit"]{
+    width: 120px;
+}
